@@ -1,0 +1,87 @@
+h1 {
+    justify-content: center;
+    /*横中央*/
+    align-items: center;
+    /*縦中央*/
+}
+
+body {
+    background: rgb(200, 238, 247);
+    color: #333333
+}
+
+.center {
+    text-align: center;
+}
+
+.span {
+    margin-top: 7vw;
+}
+
+.tytle_button {
+    color: #000000;
+    background-color: #FFD14C;
+    border-color: rgb(200, 238, 247);
+    width: 14vw;
+    height: 5vw;
+    font-size: 2vw;
+}
+
+.rule_button {
+    color: #000000;
+    background-color: #FFD14C;
+    border-color: rgb(200, 238, 247);
+    width: 14vw;
+    height: 5vw;
+    font-size: 2vw;
+}
+
+.game_button {
+    color: #000000;
+    background-color: #FFD14C;
+    border-color: rgb(200, 238, 247);
+    width: 14vw;
+    height: 5vw;
+    font-size: 2vw;
+}
+
+.choice-btn {
+    margin: 3vw 3vw;
+    text-align: center;
+    color: #000000;
+    background-color: #FFD14C;
+    border-color: rgb(200, 238, 247);
+    width: 20vw;
+    height: 8vw;
+    font-size: 2vw;
+}
+
+#judge-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+}
+
+#judge-image {
+    width: 50vw !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+#choices {
+    text-align: center;
+}
+
+#question {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#score {
+    text-align: center;
+    font-size: 3vw;
+}

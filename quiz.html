@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>クイズ！</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="count"></p>
+    <div id="quiz-container">
+        <p id="question"></p> <!-- ← ここを追加 -->
+        <div id="choices">
+            <button class="choice-btn"></button>
+            <button class="choice-btn"></button>
+            <br>
+            <button class="choice-btn"></button>
+            <button class="choice-btn"></button>
+        </div>
+    </div>
+
+    <div id="judge-container">
+        <img id="judge-image" src="" alt="" style="display:none; width:150px; height:auto;">
+        <audio id="correct-sound" src="sounds/correct.mp3" preload="auto"></audio>
+        <audio id="incorrect-sound" src="sounds/incorrect.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="index.js"></script>
+    <p id="judge-message"></p>
+</body>
+
+</html>
